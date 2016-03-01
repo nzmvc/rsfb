@@ -15,6 +15,9 @@
 		FA738E081C805A2A005266A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA738E061C805A2A005266A4 /* LaunchScreen.storyboard */; };
 		FA738E131C805A2A005266A4 /* resfebeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA738E121C805A2A005266A4 /* resfebeTests.swift */; };
 		FA738E1E1C805A2A005266A4 /* resfebeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA738E1D1C805A2A005266A4 /* resfebeUITests.swift */; };
+		FA7AA4B41C85B1FA009E3A47 /* singIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AA4B31C85B1FA009E3A47 /* singIn.swift */; };
+		FA7AA4B61C85B20F009E3A47 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AA4B51C85B20F009E3A47 /* login.swift */; };
+		FA7AA4B81C85FD27009E3A47 /* photo-1444044205806-38f3ed106c10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA7AA4B71C85FD27009E3A47 /* photo-1444044205806-38f3ed106c10.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FA738E191C805A2A005266A4 /* resfebeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resfebeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA738E1D1C805A2A005266A4 /* resfebeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resfebeUITests.swift; sourceTree = "<group>"; };
 		FA738E1F1C805A2A005266A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7AA4B31C85B1FA009E3A47 /* singIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singIn.swift; sourceTree = "<group>"; };
+		FA7AA4B51C85B20F009E3A47 /* login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		FA7AA4B71C85FD27009E3A47 /* photo-1444044205806-38f3ed106c10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1444044205806-38f3ed106c10.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		FA738DF91C805A29005266A4 /* resfebe */ = {
 			isa = PBXGroup;
 			children = (
+				FA7AA4B71C85FD27009E3A47 /* photo-1444044205806-38f3ed106c10.jpeg */,
 				FA738DFA1C805A2A005266A4 /* AppDelegate.swift */,
 				FA738DFC1C805A2A005266A4 /* ViewController.swift */,
 				FA738DFE1C805A2A005266A4 /* Main.storyboard */,
@@ -106,6 +113,8 @@
 				FA738E061C805A2A005266A4 /* LaunchScreen.storyboard */,
 				FA738E091C805A2A005266A4 /* Info.plist */,
 				FA738E011C805A2A005266A4 /* resfebe.xcdatamodeld */,
+				FA7AA4B31C85B1FA009E3A47 /* singIn.swift */,
+				FA7AA4B51C85B20F009E3A47 /* login.swift */,
 			);
 			path = resfebe;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 				FA738E081C805A2A005266A4 /* LaunchScreen.storyboard in Resources */,
 				FA738E051C805A2A005266A4 /* Assets.xcassets in Resources */,
 				FA738E001C805A2A005266A4 /* Main.storyboard in Resources */,
+				FA7AA4B81C85FD27009E3A47 /* photo-1444044205806-38f3ed106c10.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA738DFD1C805A2A005266A4 /* ViewController.swift in Sources */,
+				FA7AA4B61C85B20F009E3A47 /* login.swift in Sources */,
 				FA738DFB1C805A2A005266A4 /* AppDelegate.swift in Sources */,
 				FA738E031C805A2A005266A4 /* resfebe.xcdatamodeld in Sources */,
+				FA7AA4B41C85B1FA009E3A47 /* singIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +500,7 @@
 				FA738E241C805A2A005266A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA738E251C805A2A005266A4 /* Build configuration list for PBXNativeTarget "resfebeTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				FA738E271C805A2A005266A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA738E281C805A2A005266A4 /* Build configuration list for PBXNativeTarget "resfebeUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				FA738E2A1C805A2A005266A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
